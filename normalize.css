@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(211, 235, 255);
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+header {
+    font-size:larger;
+    text-align: center;
+    border-style:solid;
+    border-radius: 15px;
+    background-color:  rgb(132, 168, 197);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-style:solid;
+    border-radius: 15px;
+    background-color:  rgb(132, 168, 197);
+}
+
+.policy {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(191, 255, 183);
+}
