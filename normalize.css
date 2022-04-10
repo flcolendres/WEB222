@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(211, 235, 255);
+    background-color: rgb(238, 240, 140);
     font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 
@@ -7,22 +7,33 @@ header {
     font-size:larger;
     border-style:solid;
     border-radius: 15px;
-    background-color:  rgb(132, 168, 197);
+    background-color:  rgb(153, 255, 187);
 }
-
 header h1 {
-position: relative;
-left: 10;
+    position: relative;
+    left: 10;
 }
-
-
 header img {
     position: absolute;
     top: 0;
     right: 10;
-    opacity: 0.5;
     height: 3cm;
     width: 3cm;
+}
+
+nav {
+    margin: 10 0 0 0;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: rgb(191, 255, 183);
+}
+nav a {
+    font-size: large;
+    margin: 10;
+    
+}
+nav a:hover{
+    background-color: yellow;
 }
 
 footer {
@@ -33,15 +44,15 @@ footer {
     text-align: center;
     border-style:solid;
     border-radius: 15px;
-    background-color:  rgb(132, 168, 197);
+    background-color:  rgb(153, 255, 187);
 }
 
 .policy {
     position: relative;
     top: 200px;
-    text-align: center;
     border: 3px;
     border-radius: 15px;
     border-style: solid;
+    text-align: center;
     background-color: rgb(191, 255, 183);
 }
