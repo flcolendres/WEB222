@@ -1,0 +1,4 @@
+function valid() {
+
+    return false;
+}
