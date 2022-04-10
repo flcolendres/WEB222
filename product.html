@@ -5,15 +5,28 @@
     </head>
     <body>
         <header>
-            <h1>Welcome</h1>
-            <img src="./logo.png" alt="logo"/>
+            <h1>Product</h1>
+            <a href="./honesty.html"><img src="./logo.png" alt="logo"/></a>
         </header>
         <nav>
             <a href="./honesty.html">Home</a>
-            <a href="./reflection.html">Reflection</a>
             <a href="./product.html">Product</a> 
+            <a href="./reflection.html">Reflection</a>
         </nav>
-        <footer><h2>Page designed by: Francis Lloyd Colendres</h2></footer>
+        <div class="information">
+            <form id="signup" method="post" action="https://httpbin.org/post" onsubmit="return valid();">
+                <input type="hidden" name="lastName" id="lastName" value="Colendres" />
+                <input type="hidden" name="studentId" id="studentId" value="145498200" />
+                Product ID <input type="number" name="productId" pattern="[0-9]{8}" id="productId" required /><br/>
+                Price <input typ
+                Supplier Username
+                Supplier Status
+                Supplier Email
+            </form>
+
+        </div>
+
+        <footer><p>Page designed by: Francis Lloyd Colendres</p></footer>
 
     </body>
 </html>
