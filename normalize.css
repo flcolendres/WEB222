@@ -1,6 +1,6 @@
 body {
     background-color: rgb(238, 240, 140);
-    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
 }
 
 header {
@@ -22,10 +22,8 @@ header img {
 }
 
 nav {
-    margin: 10 0 0 0;
+    margin: 10 50 0 50;
     border-radius: 10px;
-    border-style: solid;
-    background-color: rgb(191, 255, 183);
 }
 nav a {
     font-size: large;
@@ -48,6 +46,7 @@ footer {
 }
 
 .policy {
+    margin: 0 500 0 500;
     position: relative;
     top: 200px;
     border: 3px;
