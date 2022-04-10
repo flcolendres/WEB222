@@ -5,10 +5,24 @@ body {
 
 header {
     font-size:larger;
-    text-align: center;
     border-style:solid;
     border-radius: 15px;
     background-color:  rgb(132, 168, 197);
+}
+
+header h1 {
+position: relative;
+left: 10;
+}
+
+
+header img {
+    position: absolute;
+    top: 0;
+    right: 10;
+    opacity: 0.5;
+    height: 3cm;
+    width: 3cm;
 }
 
 footer {
