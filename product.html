@@ -7,12 +7,9 @@
     <body>
         <header>
             <h1>Product</h1>
-            <a href="./honesty.html"><img src="./logo.png" alt="logo"/></a>
+            <img id="logo" src="./logo.png" alt="logo" onclick="showNav()"/>
         </header>
-        <nav>
-            <a href="./honesty.html">Home</a>
-            <a href="./product.html">Product</a> 
-            <a href="./reflection.html">Reflection</a>
+        <nav id="navigation">
         </nav>
         <main>
         <div class="information">
@@ -37,15 +34,26 @@
         </main>
         <aside>
             <div id="errorlist">
+            <h2>Errors</h2>
                <p id="error_1" hidden>Please enter numbers only on Product ID</p>
                <p id="error_2" hidden>Please enter 8 digits on Product ID</p>
-               <p id="error_3" hidden>The product description must start with capital letters</p>
+               <p id="error_3" hidden>The product description must start with capital letter</p>
                <p id="error_4" hidden>The product description can only have alphabets</p>
                <p id="error_5" hidden>Price should be less than 1000</p>
                <p id="error_6" hidden>Username must start with alphabet</p>
                <p id="error_7" hidden>Select at least one of the checkboxes.</p>
             </div>
         </aside>
+        <div class="required">
+            <h1>Requirements:</h1>
+            <p>Product ID: Digit only and 8 characters long</p>
+            <p>Product Description: Must start with a capital letter and only alphabet allowed. Must contain at least 20 characters.</p>
+            <p>Price: Digit only, decimal not allowed. Less than 1000.</p>
+            <p>Supplier Username: Must start with an alphabet, must have at least 6 characters.</p>
+            <p>Supplier Status: Must select at least one of the check boxes.</p>
+        </div>
+
+
 
         <footer><p>Page designed by: Francis Lloyd Colendres</p></footer>
 
