@@ -55,3 +55,36 @@ footer {
     text-align: center;
     background-color: rgb(191, 255, 183);
 }
+
+.information {
+    position: absolute;
+    margin: 150 0 0 500;
+    border: 2px;
+    padding: 10;
+    border-radius: 15px;
+    border-style: solid;
+    background-color:  rgb(218, 162, 255);
+}
+
+form span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    text-align:left;
+    width: 150px;
+    margin: 1px;
+}
+input {
+    font-style: italic;
+ }
+.checkbox {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+ div.productDesc {
+    text-align: center;
+ }
+ #submit, #clear{
+    position: inherit;
+    margin: 10 0 0 100;
+ }

@@ -16,17 +16,17 @@
         </nav>
         <div class="information">
             <form id="signup" name="signup" method="post" action="https://httpbin.org/post" onsubmit="return check()">
-                Product ID <input type="text" name="productId" id="productId" required /><br/>
-                Product Description<textarea name="productDesc" id="productDesc" minlength="20" required></textarea> <br/>
-                Price <input type="number" min="0" name="price" id="price" required /><br/>
-                Supplier Username <input type="text" name="username" minlength="6" id="username" required /><br/>
-                <p>Supplier Status</p> 
+                <span>Product ID</span><input type="text" name="productId" id="productId" required /><br/>
+                <span>Product Description</span><textarea name="productDesc" id="productDesc" minlength="20" required></textarea> <br/>
+                <span>Price</span><input type="number" min="0" name="price" id="price" required /><br/>
+                <span>Supplier Username</span><input type="text" name="username" minlength="6" id="username" required /><br/>
+                <span>Supplier Status</span> 
                 <ul>
                     <li><input type="checkbox" name="status" id="status_1" value="new_supplier"> New Supplier</li>
                     <li><input type="checkbox" name="status" id="status_2" value="contract_signed"> Contract Signed </li>
                     <li><input type="checkbox" name="status" id="status_3" value="quality_tested"> Quality Tested </li>
                 </ul>
-                Supplier Email <input type="email" name="email" id="email" required><br/>
+                <span>Supplier Email</span><input type="email" name="email" id="email" required><br/>
                 <input type="hidden" name="lastName" id="lastName" value="Colendres" />
                 <input type="hidden" name="studentId" id="studentId" value="145498200" />
                 <input type="submit" name="submit" value="Submit">

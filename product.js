@@ -67,11 +67,5 @@ function checkBox() {
 }
 
 function check() {
-    var result;
-    result = digitOnly();
-    result = productDescription();
-    result = price();
-    result = userName();
-    result = checkBox();
-    return result;
+    return digitOnly() && productDescription() && price() && userName() && checkBox();
 } 
