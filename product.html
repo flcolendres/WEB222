@@ -14,10 +14,11 @@
             <a href="./product.html">Product</a> 
             <a href="./reflection.html">Reflection</a>
         </nav>
+        <main>
         <div class="information">
             <form id="signup" name="signup" method="post" action="https://httpbin.org/post" onsubmit="return check()">
                 <span>Product ID</span><input type="text" name="productId" id="productId" required /><br/>
-                <span>Product Description</span><textarea name="productDesc" id="productDesc" minlength="20" required></textarea> <br/>
+                <span>Product Description</span><textarea name="productDesc" id="productDesc" minlength="20" rows="2" required></textarea> <br/>
                 <span>Price</span><input type="number" min="0" name="price" id="price" required /><br/>
                 <span>Supplier Username</span><input type="text" name="username" minlength="6" id="username" required /><br/>
                 <span>Supplier Status</span> 
@@ -29,11 +30,22 @@
                 <span>Supplier Email</span><input type="email" name="email" id="email" required><br/>
                 <input type="hidden" name="lastName" id="lastName" value="Colendres" />
                 <input type="hidden" name="studentId" id="studentId" value="145498200" />
-                <input type="submit" name="submit" value="Submit">
-                <input type="reset" name="reset" value="Clear">
+                <input type="submit" name="submit" id="submit" value="Submit"> &nbsp;
+                <input type="reset" name="reset" id="reset" value="Clear">
             </form>
-
         </div>
+        </main>
+        <aside>
+            <div id="errorlist">
+               <p id="error_1" hidden>Please enter numbers only on Product ID</p>
+               <p id="error_2" hidden>Please enter 8 digits on Product ID</p>
+               <p id="error_3" hidden>The product description must start with capital letters</p>
+               <p id="error_4" hidden>The product description can only have alphabets</p>
+               <p id="error_5" hidden>Price should be less than 1000</p>
+               <p id="error_6" hidden>Username must start with alphabet</p>
+               <p id="error_7" hidden>Select at least one of the checkboxes.</p>
+            </div>
+        </aside>
 
         <footer><p>Page designed by: Francis Lloyd Colendres</p></footer>
 

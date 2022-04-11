@@ -67,5 +67,9 @@ function checkBox() {
 }
 
 function check() {
-    return digitOnly() && productDescription() && price() && userName() && checkBox();
+    var result = true;
+    if(digitOnly() == false || productDescription() == false || price() && userName() && checkBox()) {
+        result = false;
+    }
+    return result;
 } 

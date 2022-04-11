@@ -64,27 +64,48 @@ footer {
     border-radius: 15px;
     border-style: solid;
     background-color:  rgb(218, 162, 255);
+    box-shadow: 5px 10px rgb(61, 12, 94);
+
 }
 
 form span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
     display:inline-block;
     text-align:left;
     width: 150px;
     margin: 1px;
 }
-input {
+input, textarea  {
     font-style: italic;
+    box-sizing: border-box;
+    margin: 2px;
  }
 .checkbox {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 
- div.productDesc {
+div.productDesc {
     text-align: center;
  }
- #submit, #clear{
-    position: inherit;
-    margin: 10 0 0 100;
+#submit, #reset{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 150px;
+    border-radius: 15%;
+ }
+
+aside {
+   float: right;
+   background-color:  rgb(138, 208, 255);
+   box-shadow: 5px 10px rgb(12, 31, 94);
+   border-radius: 15px;
+   margin: 150 500 0 0;
+   height: 10cm;
+ }
+ aside p {
+     font-size: 1em;
+
  }
