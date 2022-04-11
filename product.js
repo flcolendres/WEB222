@@ -53,6 +53,19 @@ function userName() {
     return result;
 }
 
+function checkBox() {
+    var result = false;
+    for(var i = 0; i < document.signup.status.length && result == false; i++) {
+        if(document.signup.status[i].checked == true) {
+            result = true;
+        }
+    }
+    if(result == false) {
+        alert("Select at least one of the checkboxes.");
+    }
+    return result;
+}
+
 function check() {
     var result;
     result = digitOnly();
