@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet"  href="./normalize.css" type="text/css">
+        <script src="./product.js"></script>
         <title>Francis Lloyd Colendres</title>
     </head>
     <body>
@@ -14,14 +15,22 @@
             <a href="./reflection.html">Reflection</a>
         </nav>
         <div class="information">
-            <form id="signup" method="post" action="https://httpbin.org/post" onsubmit="return valid();">
+            <form id="signup" name="signup" method="post" action="https://httpbin.org/post" onsubmit="check()">
+                Product ID <input type="text" name="productId" id="productId" required /><br/>
+                Product Description <input type="text" name="productDesc" id="productDesc" required /><br/>
+                Price <input type="number" min="0" name="price" id="price" required /><br/>
+                Supplier Username <input type="text" name="username" id="username" required /><br/>
+                <p>Supplier Status</p> 
+                <ul>
+                    <li><input type="checkbox" name="status" id="status_1" value="new_supplier"> New Supplier</li>
+                    <li><input type="checkbox" name="status" id="status_2" value="contract_signed"> Contract Signed </li>
+                    <li><input type="checkbox" name="status" id="status_3" value="quality_tested"> Quality Tested </li>
+                </ul>
+                Supplier Email <input type="email" name="email" id="email" required><br/>
                 <input type="hidden" name="lastName" id="lastName" value="Colendres" />
                 <input type="hidden" name="studentId" id="studentId" value="145498200" />
-                Product ID <input type="number" name="productId" pattern="[0-9]{8}" id="productId" required /><br/>
-                Price <input typ
-                Supplier Username
-                Supplier Status
-                Supplier Email
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Clear">
             </form>
 
         </div>
