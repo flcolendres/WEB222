@@ -30,6 +30,7 @@ nav {
     font-size: 20px;
     background-color: rgb(255, 185, 168);
     box-shadow: 2px 3px 2px rgb(138, 25, 25);
+    text-align: center;
 }
 nav a {
     margin: 10;
@@ -70,7 +71,7 @@ footer {
 
 .information {
     position: absolute;
-    margin: 80 0 0 500;
+    margin: 70 0 0 500;
     border: 2px;
     padding: 10;
     border-radius: 15px;
@@ -117,7 +118,7 @@ aside {
    background-color:  rgb(138, 208, 255);
    box-shadow: 5px 10px rgb(12, 31, 94);
    border-radius: 15px;
-   margin: 110 500 0 0;
+   margin: 50 500 0 0;
    height: auto;
    width: 10cm;
 }
@@ -164,8 +165,7 @@ aside:hover {
 
 .required {
     position: absolute;
-    top: 600px;
-    left: 580px;
+    margin: 470 0 0 580;
     padding: 10px;
     border-radius: 15%;
     border-style: solid;
