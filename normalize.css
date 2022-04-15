@@ -11,12 +11,14 @@ header {
 }
 header h1 {
     position: relative;
-    left: 10;
+    left: 10px;
+    text-shadow: 3px 3px wheat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header img {
     position: absolute;
-    top: 0;
-    right: 10;
+    top: 0px;
+    right: 10px;
     height: 3cm;
     width: 3cm;
 }
@@ -25,7 +27,7 @@ header img:hover{
 }
 
 nav {
-    margin: 10 500 0 500;
+    margin: 10px 500px 0 500px;
     border-radius: 10px;
     font-size: 20px;
     background-color: rgb(255, 185, 168);
@@ -33,7 +35,7 @@ nav {
     text-align: center;
 }
 nav a {
-    margin: 10;
+    margin: 10px;
     color: black;
 }
 nav a:hover{
@@ -56,10 +58,11 @@ footer {
     border-style:solid;
     border-radius: 15px;
     background-color:  rgb(153, 255, 187);
+    height: 3%;
 }
 
 .policy {
-    margin: 0 500 0 500;
+    margin: 0 500px 0 500px;
     position: relative;
     top: 200px;
     border: 3px;
@@ -71,9 +74,9 @@ footer {
 
 .information {
     position: absolute;
-    margin: 70 0 0 500;
+    margin: 70px 0 0 500px;
     border: 2px;
-    padding: 10;
+    padding: 10px;
     border-radius: 15px;
     border-style: solid;
     background-color:  rgb(218, 162, 255);
@@ -118,7 +121,7 @@ aside {
    background-color:  rgb(138, 208, 255);
    box-shadow: 5px 10px rgb(12, 31, 94);
    border-radius: 15px;
-   margin: 50 500 0 0;
+   margin: 50px 500px 0 0;
    height: auto;
    width: 10cm;
 }
@@ -165,7 +168,7 @@ aside:hover {
 
 .required {
     position: absolute;
-    margin: 470 0 0 580;
+    margin: 470px 0 0 580px;
     padding: 10px;
     border-radius: 15%;
     border-style: solid;
@@ -182,4 +185,35 @@ aside:hover {
 .required:hover {
     animation-name: shake;
     animation-duration: 0.3s;
+}
+.reflection {
+    position: absolute;
+    text-align: center; 
+    margin: 30px 0 10px 700px;
+    border-radius: 10%;
+    background-color:rgb(204, 187, 243);
+    box-shadow: 5px 10px rgb(45, 11, 100);
+    border-style: solid;
+}
+.reflection h2, .references h2 {
+    color:red;
+    font-weight: bold;
+}
+.reflection p, .references p {
+    color:blue;
+    font-weight: bold;
+}
+.reflection p {
+    margin: 10px 10px;
+}
+.references {
+    position: absolute;
+    background-color: rgb(94, 180, 120);
+    border-radius: 15%;
+    margin-top: 200px;
+    box-shadow: 5px 10px rgb(11, 100, 26);
+    border-style: solid;
+}
+.references h2{
+    text-align: center;
 }

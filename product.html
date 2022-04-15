@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet"  href="./normalize.css" type="text/css">
@@ -25,8 +26,8 @@
                     <li><input type="checkbox" name="status" id="status_3" value="quality_tested"> Quality Tested </li>
                 </ul>
                 <span>Supplier Email</span><input type="email" name="email" id="email" required><br/>
-                <input type="hidden" name="lastName" id="lastName" value="Colendres" />
-                <input type="hidden" name="studentId" id="studentId" value="145498200" />
+                <input type="hidden" name="lastName" id="lastName" value="Colendres" /> <!--Hidden field as required in #5-->
+                <input type="hidden" name="studentId" id="studentId" value="145498200" /> <!--Hidden field as required in #5-->
                 <input type="submit" name="submit" id="submit" value="Submit"> &nbsp;
                 <input type="reset" name="reset" id="reset" value="Clear">
             </form>
@@ -42,7 +43,7 @@
         </main>
         <aside>
             <div id="errorlist">
-            <h2>Errors</h2>
+            <h2>Errors</h2>  <!--List of errors set to hidden. Certain errors will be visible depending on the returned JavaScript validation result.-->
                <p id="error_1" hidden>Only numbers are allowed in Product ID</p>
                <p id="error_2" hidden>Please enter 8 digits on Product ID</p>
                <p id="error_3" hidden>The product description must start with capital letter</p>
@@ -52,10 +53,7 @@
                <p id="error_7" hidden>Select at least one of the checkboxes.</p>
             </div>
         </aside>
-
-
-
-        <footer><p>Page designed by: Francis Lloyd Colendres</p></footer>
+        <footer><a href="https://github.com/flcolendres/WEB222">Click here for Github</a></footer>
 
     </body>
 </html>
